@@ -6,6 +6,7 @@ ENV DB_DRIVER=mysql \
     DB_HOST= \
     DB_USERNAME= \
     DB_PASSWORD= \
+    DB_PORT= \
     DEBIAN_FRONTEND=noninteractive
 
 COPY . /var/www/html/
