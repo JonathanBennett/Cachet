@@ -67,6 +67,7 @@ return [
             'database'  => env('DB_DATABASE', null),
             'username'  => env('DB_USERNAME', null),
             'password'  => env('DB_PASSWORD', null),
+            'port'      => env('DB_PORT', null),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
@@ -79,6 +80,7 @@ return [
             'database' => env('DB_DATABASE', null),
             'username' => env('DB_USERNAME', null),
             'password' => env('DB_PASSWORD', null),
+            'port'      => env('DB_PORT', null),
             'charset'  => 'utf8',
             'prefix'   => '',
             'schema'   => 'public',
@@ -90,6 +92,7 @@ return [
             'database' => env('DB_DATABASE', null),
             'username' => env('DB_USERNAME', null),
             'password' => env('DB_PASSWORD', null),
+            'port'      => env('DB_PORT', null),
             'prefix'   => '',
         ],
 
